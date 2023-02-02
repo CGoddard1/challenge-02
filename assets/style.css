@@ -1,15 +1,22 @@
-
+* {
+    box-sizing: border-box;
+}
 
 header {
     padding: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:maroon;
+    background-color:#563f46;
     color: white;
+    background-image: url("../images/97151480_2621556611490332_1935690184089228747_n.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 header h1 {
     display: inline-block;
     font-size: 48px;
+    position: center;
+    margin-left: 150px;
 }
 
 header h1 .goddard {
@@ -32,15 +39,68 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    font:
 }
 
 header nav a {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 
+.flex-containter1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.background-pic1 {
+    width: 400px;
+    height: 400px;
+    background-image: url("../images/96522490_240855457359171_3173618917171009457_n.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    /* border: 1px solid rgb(2, 2, 2); */
+    margin: auto;
+  }
+
+.background-pic2 {
+    width: 400px;
+    height: 400px;
+    background-image: url("../images/96522490_240855457359171_3173618917171009457_n.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    /* border: 1px solid rgb(2, 2, 2); */
+    margin: auto;
+  }
+
+.background-pic3 {
+    width: 400px;
+    height: 400px;
+    background-image: url("../images/96522490_240855457359171_3173618917171009457_n.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    /* border: 1px solid rgb(2, 2, 2); */
+    margin: auto;
+  }
+
+main {
+    /* display: flex; */
+}
+
 body {
-    background-color:slategrey;
+    background-color:#8ca3a3;
 }
 
 
+/* background-image: url("../images/96522490_240855457359171_3173618917171009457_n.jpg"); */
+
+/* background-image: url("../images/96522490_240855457359171_3173618917171009457_n.jpg"); */
+
+/* background-image: url("../images/96266934_1090026274701109_7479301059749306712_n.jpg"); */
