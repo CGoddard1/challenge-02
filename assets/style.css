@@ -58,6 +58,7 @@ header nav a {
     flex-direction: row;
 }
 
+/* mountain picture css */
 .hero {
     height: 350px;
     width: 97%;
@@ -71,6 +72,7 @@ header nav a {
     position: relative;
 }
 
+/* the different sections for CSS */
 .section-title {
     font-size: 36px;
     color: #563f46;
@@ -147,7 +149,6 @@ header nav a {
 
 .link {
     justify-content: space-between;
-    /* text-align: row; */
     text-decoration: underline;
     color: white;
     padding: 15px;
@@ -183,7 +184,7 @@ footer {
     color: darkgrey;
 }
 
-
+/* media queries for mobile and tablets */
 @media screen and (max-width: 670px) {
     header {
         flex-direction: column;
