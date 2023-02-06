@@ -20,8 +20,8 @@ header {
     justify-content: space-between;
     background-image: url("../images/97151480_2621556611490332_1935690184089228747_n.jpg");
     padding: 5px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:#563f46;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #563f46;
     color: white;
     background-size: contain;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@ header h1 {
 }
 
 header h1 .goddard {
-    color:darkgrey
+    color: darkgrey
 }
 
 header nav {
@@ -46,7 +46,7 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     font-weight: bold;
 }
@@ -72,13 +72,13 @@ header nav a {
 
 .hero {
     height: 350px;
-    width: 100%,
+    width: 97%;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
     background-image: url("../images/pexels-eberhard-grossgasteiger-2088238.jpg");
     background-size: cover;
-    background-position: 80% , center;
+    background-position: 80%, center;
     display: flex;
     position: relative;
 }
@@ -86,7 +86,7 @@ header nav a {
 .section-title {
     font-size: 36px;
     color: #563f46;
-    text-align:left;
+    text-align: left;
     border-bottom: 2px solid black;
 }
 
@@ -115,6 +115,26 @@ header nav a {
 
 /* work code here */
 
+#work {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+#placeholder {
+    border: 2px solid black;
+    height: 300px;
+    width: 500px;
+}
+
+#placeholder1 {
+    display: inline-flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+
 /* contact me code here */
 #contact-me {
     display: flex;
@@ -128,12 +148,16 @@ header nav a {
     text-decoration: underline;
     color: white;
     padding: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     font-weight: bold;
 }
 
 /* resume code here */
+#aresume {
+    color: #563f46;
+    text-decoration: none;
+}
 
 /* .loveposter {
     display: flex;
@@ -150,24 +174,41 @@ main {
 }
 
 body {
-    background-color:#8ca3a3;
+    background-color: #8ca3a3;
 }
 
 footer {
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    font-size: 14px;
     background-color: #563f46;
+    color: darkgrey;
 }
 
-footer div {
-    text-align: center;
-    font-size: 18px;
-    color: black;
-}
 
-@media screen and (max-width: 670px){
-    header{
-     flex-direction: column;
- 
+@media screen and (max-width: 670px) {
+    header {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        background-image: url("../images/97151480_2621556611490332_1935690184089228747_n.jpg");
+        height: 100px;
+        width: 97%;
+        align-items:flex-end;
     }
- 
- }
+
+    header h1 {
+        flex-direction: right;
+        float: right;
+        font-size: 24px
+    }
+
+    header nav {
+        display: inline-flex;
+        float: right;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+}
