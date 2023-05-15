@@ -5,17 +5,8 @@ User Story
 As a boot camp student,
 I want to have a portfolio to update regularly with my class projects and other projects throughout the course so that myself and others can view all the projects I have worked on.
 
-## Acceptance Criteria
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+## Authors
+Cole Goddard
+UNCC Project Design
+
+## Link to Portfolio (http://127.0.0.1:5500/index.html)
